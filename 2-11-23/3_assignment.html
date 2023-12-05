@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@700&family=Poppins:wght@200;300;500&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            outline: 0;
+            border: 0;
+        }
+        h1{
+            font-family: 'Oswald', sans-serif
+        }
+
+        .con {
+            width: 100%;
+            height: 100vh;
+            background-image: url("./images/beans.jpg");
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .form {
+            background-color: burlywood;
+            width: 30%;
+            padding: 20px;
+            height: 90%;
+            text-align: center;
+        }
+
+        .line {
+            width: 90%;
+            height: 3px;
+            margin-left: 15px;
+            background: brown;
+        }
+
+        .line2 {
+            width: 100%;
+            height: 3px;
+            margin-top: 10px;
+            background: brown;
+        }
+
+        .coffee .coffee_menu {
+            display: flex;
+            justify-content: space-between;
+
+
+        }
+
+        .coffee .coffee_menu .coffee_menu_text {
+            display: flex;
+            flex-direction: column;
+            justify-content: right;
+            text-align: left;
+        }
+
+        .coffee .coffee_menu .coffee_menu_text h4 {
+            margin-top: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        .coffee .coffee_menu .coffee_menu_price h4 {
+            margin-top: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h4 a {
+            font-size: 12px;
+            text-decoration: none;
+            font-family: 'Oswald', sans-serif;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .camp {
+            font-size: 12px;
+            text-decoration: none;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="con">
+        <div class="form">
+            <h1>CAMPER CAFE</h1>
+            <span style="font-family: 'Oswald', sans-serif">Est.2020</span>
+            <div class="line"></div>
+            <div class="coffee">
+                <h2 style="font-family: 'Oswald', sans-serif">coffee</h2>
+                <img src="images/coffee.jpg" alt="" srcset="">
+                <div class="coffee_menu">
+                    <div class="coffee_menu_text">
+                        <h4>French Vanilla </h4>
+                        <h4>caramel macchiato </h4>
+                        <h4>Pumkin Spice </h4>
+                        <h4>Hazelnut </h4>
+                        <h4>Mocha </h4>
+                    </div>
+                    <div class="coffee_menu_price">
+                        <h4>3.00</h4>
+                        <h4>3.75</h4>
+                        <h4>3.50</h4>
+                        <h4>4.00</h4>
+                        <h4>4.50</h4>
+                    </div>
+                </div>
+                <br>
+                <h2 style="font-family: 'Oswald', sans-serif">Dessert</h2>
+                <img src="images/pie.jpg" alt="">
+                <div class="coffee_menu">
+                    <div class="coffee_menu_text">
+                        <h4>Donat </h4>
+                        <h4>Cream Pie </h4>
+                        <h4>Cheese Cake </h4>
+                        <h4>Cinnamon Roll</h4>
+
+                    </div>
+                    <div class="coffee_menu_price">
+                        <h4>1.50</h4>
+                        <h4>2.75</h4>
+                        <h4>3.00</h4>
+                        <h4>2.50</h4>
+                    </div>
+                </div>
+
+            </div>
+            <div class="line2"></div>
+            <h4><a href="http://">Visit our website</a></h4>
+            <h4 class="camp">123 free code camp drive</h4>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

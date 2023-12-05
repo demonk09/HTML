@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            outline: 0;
+            border: 0;
+            padding: 0;
+        }
+        .con{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(rgb(8, 131, 149,0.7),
+            rgb(242, 247, 161,0.7)),url(./images/bg2.jpg);
+            background-size: 100% 100%;
+        }
+        .form{
+            width: 35%;
+            height: 50vh;
+            background: linear-gradient(rgb(233, 184, 36,0.3),
+            rgb(216, 63, 49,0.3)),url(./images/bg1.jpg);
+            background-size: 100% 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+        input{
+            width: 80%;
+            height: 30%;
+            border: 0px;
+            border-bottom: 3px solid yellow;
+            background: transparent;
+        }
+        ::placeholder{
+            color: brown;
+            font-size: 20px;
+            text-transform: uppercase;
+        }
+        h1{
+            color: orange;
+
+        }
+        button{
+            padding: 5px 20px;
+            font-size: 15px;
+            width: 300px;
+            border-radius: 10px;
+            background-color: grey;
+            color: aqua;
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="con">
+        <div class="form">
+            <h1>Login form</h1>
+            <input type="text" name="" placeholder="uSER ID" id="">
+            <input type="password" name="" placeholder="password" id="">
+            <button>Login</button>
+    </div>
+</body>
+</html>

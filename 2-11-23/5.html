@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #f0f2f5;
+            color: #1c1e21;
+        }
+
+        main {
+            height: 70vh;
+            width: 100vw;
+            position: relative;
+            margin: 0 auto;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 100%;
+            max-width: 1000px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            /* transform: translate(-50%, -50%); */
+        }
+
+        .logo {
+            flex: 0 0 50%;
+            text-align: left;
+        }
+
+        .form {
+            flex: 0 0 40%;
+            text-align: center;
+        }
+
+        .logo img {
+            max-width: 300px;
+        }
+
+        .logo h2 {
+            font: 26px;
+            font-weight: 400;
+            padding: 0 30px;
+            line-height: 32px;
+        }
+
+        .form .form_container {
+            background-color: #ffffff;
+            border: none;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+            padding: 20px;
+            max-width: 400px;
+        }
+
+        .form .form_container input,
+        .form .form_container .btn-login {
+            width: 100%;
+            margin: 5px 0;
+            height: 45px;
+            vertical-align: middle;
+            font-size: 16px;
+        }
+
+        .form .form_container input {
+            border: 1px solid #dddfe2;
+            color: #1d2129;
+            padding: 0 8px;
+            outline: none;
+        }
+
+        .form .form_container .btn-login {
+            background-color: #1877f2;
+            border: none;
+            border-radius: 6px;
+            font-size: 20px;
+            padding: 0 16px;
+            color: #ffffff;
+            font-weight: 700;
+        }
+
+        .form .form_container a {
+            display: block;
+            color: #1877f2;
+            font-size: 14px;
+            text-decoration: none;
+            padding: 10px 0 20px;
+            border-bottom: 1px solid #dadde1;
+        }
+
+        .form .form_container .btn-new {
+            background-color: #42b72a;
+            border: none;
+            border-radius: 6px;
+            font-size: 17px;
+            line-height: 48px;
+            padding: 0 16px;
+            color: #ffffff;
+            font-weight: 700;
+            margin-top: 20px;
+        }
+        p b{
+            font-weight: 700;
+            text-decoration: none;
+            color: #000;
+
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="row">
+            <div class="logo">
+                <img src="images/fb_logo.svg" alt="" srcset="">
+                <h2>Facebook helps you connect and share with the people in your life.</h2>
+            </div>
+            <div class="form">
+                <div class="form_container">
+                    <input type="text" placeholder="Email address or phone number">
+                    <input type="password" placeholder="Password">
+                    <button class="btn-login">Login</button>
+                    <a href="#">Forgotten password?</a>
+                    <button class="btn-new">Create new Account</button>
+                </div>
+                <p><a href="#"><b>Create a Page</b></a> for a celebrity, brand or business.</p>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>
